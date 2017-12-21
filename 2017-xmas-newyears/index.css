@@ -1,0 +1,9 @@
+body {
+  height: 5in;
+  width: 7in;
+  border: 3em solid;
+  border-image: url(border1.jpg);
+  border-image-slice: 49%;
+  border-image-width: 5em;
+  border-image-repeat: stretch;
+}

@@ -1,0 +1,63 @@
+body {
+  position: relative;
+  margin: 0;
+  height: 11in;
+  width: 8.5in;
+  box-sizing: border-box;
+  /*border: 0.2em dotted black;*/
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 2.6cm;
+  bottom: 2.6cm;
+  left: 2.3cm;
+  right: 2.3cm;
+  /*margin: 2.6cm 2.3cm;*/
+  /*border: 0.2em dotted black;*/
+  box-sizing: border-box;
+}
+h1 {
+  flex-grow: 1;
+  height: 40%;
+  margin: 0;
+  font-size: 4rem;
+  font-family: 'Mountains of Christmas', cursive;
+  background-image: url('snowman.png');
+  background-size: cover;
+  background-position: 22px 71px;
+  background-repeat: no-repeat;
+  margin-bottom: -12px;
+}
+.ampersand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  border: 5px solid black;
+}
+h2 {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  border-radius: 50%;
+  height: 40%;
+  margin: 0;
+  font-size: 8rem;
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  background-image: url('fireworks.jpg');
+  background-size: contain;
+  background-color: black;
+  margin-top: -12px;
+}
