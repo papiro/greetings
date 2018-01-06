@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  width: 11in;
+  height: 8.5in;
+  box-sizing: border-box;
+  display: flex;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border-box;
+}
